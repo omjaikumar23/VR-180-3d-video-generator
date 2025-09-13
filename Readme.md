@@ -1,9 +1,8 @@
-# 2D to VR180 Video Generator
+# VR180 3D Video Generator
 
 Convert standard 2D videos into immersive VR180 stereoscopic videos using AI-powered depth estimation.
 
----
-
+![2D to VR180 Converter](static/2D_to_VR180.jpg)
 ## Project Overview
 
 This project provides a complete pipeline to convert 2D videos into VR180 format videos by estimating depth maps from each frame using a deep learning model and generating stereoscopic left and right eye frames. The output is a side-by-side encoded VR180 video suitable for viewing on VR headsets that support this format.
@@ -21,12 +20,6 @@ This project provides a complete pipeline to convert 2D videos into VR180 format
 - Progress visualization and file download support.
 - Automatic resource and temporary file management.
 - GPU acceleration support if available.
-
----
-
-## Demo
-
-![2D to VR180 Converter](static/2D_to_VR180.jpg)
 
 ---
 
@@ -208,6 +201,7 @@ For questions or contributions, please open an issue or pull request on GitHub.
 ---
 
 Thank you for using the 2D to VR180 Video Generator! Enjoy immersive VR experiences from your 2D videos.
+
 
 
 
