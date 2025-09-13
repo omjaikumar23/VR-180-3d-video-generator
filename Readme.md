@@ -35,11 +35,11 @@ This project provides a complete pipeline to convert 2D videos into VR180 format
 
 1. Clone the repository:
 ```
-git clone <https://github.com/omjaikumar23/VR-180-3d-video-generator.git>
+git clone https://github.com/omjaikumar23/VR-180-3d-video-generator.git
 cd vr180-video-generator
 ```
 
-2. Create and activate a virtual environment (optional but recommended):
+2. Create and activate a virtual environment:
 
 ```
 python -m venv venv
@@ -84,19 +84,19 @@ streamlit run app_streamlit.py
 ```
 vr180-video-generator/
 │
-├── app_streamlit.py # Streamlit UI and main pipeline
-├── depth_estimator.py # Depth estimation using MiDaS model
-├── stereo_renderer.py # Stereo frame creation from RGB and depth
-├── utils.py # Helper functions: frame extraction, video creation
-├── requirements.txt # Python dependencies and versions
+├── app_streamlit.py
+├── depth_estimator.py
+├── stereo_renderer.py
+├── utils.py
+├── requirements.txt 
 ├── static/
-│ └── 2D_to_VR180.jpg # Banner image displayed in the app
-├── uploads/ # Temporary uploaded videos
-├── frames/ # Extracted input frames from video
-├── left_frames/ # Generated left stereo images
-├── right_frames/ # Generated right stereo images
-├── processed/ # Final VR180 processed videos
-└── README.md # Project documentation
+│ └── 2D_to_VR180.jpg 
+├── uploads/ 
+├── frames/ 
+├── left_frames/ 
+├── right_frames/ 
+├── processed/ 
+└── README.md 
 ```
 
 ---
@@ -172,6 +172,7 @@ Thank you for using the 2D to VR180 Video Generator! Enjoy immersive VR experien
 
 _Made with ❤️ by [Om Jaikumar](https://github.com/omjaikumar23)_  
 📝🚀 Happy Exploring!
+
 
 
 
