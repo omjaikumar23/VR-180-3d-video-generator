@@ -35,7 +35,7 @@ This project provides a complete pipeline to convert 2D videos into VR180 format
 
 1. Clone the repository:
 ```
-git clone <repository-url>
+git clone <https://github.com/omjaikumar23/VR-180-3d-video-generator.git>
 cd vr180-video-generator
 ```
 
@@ -172,6 +172,7 @@ Thank you for using the 2D to VR180 Video Generator! Enjoy immersive VR experien
 
 _Made by [Om Jaikumar](https://github.com/omjaikumar23)_  
 📝🚀 Happy Exploring!
+
 
 
 
