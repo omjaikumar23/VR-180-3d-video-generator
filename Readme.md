@@ -170,8 +170,9 @@ Thank you for using the 2D to VR180 Video Generator! Enjoy immersive VR experien
 
 
 
-_Made by [Om Jaikumar](https://github.com/omjaikumar23)_  
+_Made with ❤️ by [Om Jaikumar](https://github.com/omjaikumar23)_  
 📝🚀 Happy Exploring!
+
 
 
 
