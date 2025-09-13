@@ -39,7 +39,6 @@ git clone <repository-url>
 cd vr180-video-generator
 ```
 
-
 2. Create and activate a virtual environment (optional but recommended):
 
 ```
@@ -48,15 +47,11 @@ source venv/bin/activate # Linux/Mac
 venv\Scripts\activate # Windows
 ```
 
-
-
 3. Install dependencies:
 
 ```
 pip install -r requirements.txt
 ```
-
-
 
 4. Ensure FFmpeg is installed:
 
@@ -72,9 +67,6 @@ pip install -r requirements.txt
 ```
 streamlit run app_streamlit.py
 ```
-
-
-
 
 ### How to Use
 
@@ -106,9 +98,6 @@ vr180-video-generator/
 ├── processed/ # Final VR180 processed videos
 └── README.md # Project documentation
 ```
-
-
-
 
 ---
 
@@ -168,17 +157,6 @@ See `requirements.txt` for full list with versions.
 
 ---
 
-## Future Improvements
-
-- Add support for real-time video streaming conversion.
-- Improve stereo frame synthesis with occlusion-aware inpainting.
-- Enable user control for eye separation distance and depth exaggeration.
-- Support more VR formats such as full 360-degree videos.
-- Optimize processing for high-resolution HD videos.
-- Deploy scalable cloud solution with GPU acceleration.
-
----
-
 ## Troubleshooting
 
 - **FFmpeg errors**: Ensure FFmpeg is installed and in your system PATH. Check by running `ffmpeg -version`.
@@ -188,20 +166,12 @@ See `requirements.txt` for full list with versions.
 
 ---
 
-## License
-
-This project is provided under [MIT License](LICENSE). Feel free to use and modify with attribution.
-
----
-
-## Contact
-
-For questions or contributions, please open an issue or pull request on GitHub.
-
----
-
 Thank you for using the 2D to VR180 Video Generator! Enjoy immersive VR experiences from your 2D videos.
 
+
+
+_Made by [Om Jaikumar](https://github.com/omjaikumar23)_  
+📝🚀 Happy Exploring!
 
 
 
